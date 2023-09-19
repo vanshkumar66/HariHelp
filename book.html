@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - HariHelp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <img src="C:\Users\DHRUB\Desktop\Assistante\218-2182277_h-letter-png-file-download-free-h-in.png" alt="Auto Booking Logo" width="100px" height="40px">
+                    <h1>HariHelp</h1>
+                </div>
+                <ul>
+                    <li><a href="service.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="fleet.html">Fleet</a></li>
+                    <li><a href="price.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- "Book Now" Section -->
+    <section class="book-now">
+        <div class="container">
+            <h2>Book Now</h2>
+            <p>Fill out the form below to book your ride:</p>
+            <form action="book.php" method="post"> <!-- Replace 'book.php' with your form processing script -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="pickup">Pickup Location:</label>
+                <input type="text" id="pickup" name="pickup" required>
+
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="date-time">Date & Time:</label>
+                <input type="datetime-local" id="date-time" name="date-time" required>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, please feel free to contact us:</p>
+            <address>
+                Email: <a href="mailto:info@HariHelp.com">info@HariHelp.com</a><br>
+                Phone: <a href="tel:+123456789">123-456-789</a>
+            </address>
+        </div>
+    </section>
+
+    <!--Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 HariHelp. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
